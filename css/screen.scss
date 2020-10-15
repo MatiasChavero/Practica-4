@@ -1,0 +1,19 @@
+// (*) imports required
+
+// Import variables*
+@import "partials/_variables";
+
+// Import reset* (http://html5doctor.com/html-5-reset-stylesheet)
+@import "partials/_reset";
+
+// mixins
+@import "partials/_mixins";
+
+// Import google fonts (http://fonts.google.com)
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@300;400;600;700&display=swap');
+
+// Import slick css
+@import "../vendor/css/slick.scss";
+
+// Import main styles
+@import "partials/_main";
